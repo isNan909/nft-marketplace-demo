@@ -33,7 +33,7 @@ export default function NftModal({ open, onClose, children }) {
         />
 
         {/* content */}
-        <div className={`absolute m-auto right-0 left-0 top-0 bottom-0 h-[200px] bg-black shadow-lg w-full max-w-screen-sm p-4 ${open ? 'opacity-100' : 'pointer-events-none opacity-0'} transition-opacity duration-300 ease-in-out`}>
+        <div className={`absolute m-auto right-0 left-0 top-0 bottom-0 h-[200px] bg-black shadow-lg w-full max-w-screen-sm ${open ? 'opacity-100' : 'pointer-events-none opacity-0'} transition-opacity duration-300 ease-in-out`}>
           <div className="absolute right-5 top-5">
             <button className="text-white" onClick={onClose}><FaTimes /></button>
           </div>

@@ -38,17 +38,45 @@ function Homepage() {
               <div className="mb-8">
                 <h2 className="text-white text-lg font-bold">{currentNFT.name || ''}</h2>
               </div>
-              <div className="bg-black mb-8 flex gap-8">
+              <div className="bg-black mb-8 flex gap-8 flex-column">
                 <img className="block mx-auto max-w-[200px] rounded-sm sm:mx-0 sm:shrink-0"
                      src={currentNFT.image || ''} alt="Woman's Face" />
-                <div>
-                  <p className="text-gray-400 pb-1">Sale ends in:</p>
-                  <p className="text-white">{currentNFT.bidding.endingIn}</p>
+                <div className="flex flex-col flex-1">
+                  <div>
+                    <p className="text-gray-400 pb-2">Sale ends in:</p>
+                    <p className="text-white">{currentNFT.bidding.endingIn}</p>
+                  </div>
+                  <div className="mt-5 flex justify-start">
+                    <div>
+                      <span className="text-gray-400 pb-2">Current price</span>
+                      <p className="text-white">{currentNFT.bidding.currentPrice}</p>
+                    </div>
+                    <div className="pl-10">
+                      <span className="text-gray-400 pb-2">Current bid</span>
+                      <p className="text-white">{currentNFT.bidding.currentBid}  ETH
+                      <span className="text-gray-400 text-sm pl-4">${currentNFT.bidding.dollarEvaluation}</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <span className="text-white"
                     dangerouslySetInnerHTML={{ __html: nftDescription }}
               />
+              <div className="flex mt-6">
+                <img className="block mx-auto h-10 rounded-full sm:mx-0 sm:shrink-0"
+                     src={currentNFT.seller.image} alt="Woman's Face" />
+                <div className="text-center sm:text-left pl-4">
+                  <div>
+                    <p className="text-slate-500 font-medium text-sm">
+                      Sold by
+                    </p>
+                    <p className="text-base text-white font-semibold">
+                      {currentNFT.seller.name}
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="flex justify-end py-6">
                 <button className="shadow-xl flex items-center shadow-black text-white bg-purple-600 hover:bg-purple-700 text-base py-2 px-4 rounded-full cursor-pointer" onClick={()=> openWindow(currentNFT.openseaLink)}>Purchase NFT<FaExternalLinkAlt className="ml-2"/></button>
               </div>
