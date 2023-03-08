@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import Navbar from "../components/Navbar.jsx";
+import Hero from "../components/Hero"
 import CardList from "../components/CardList";
 import NftModal from "../components/Modal.jsx";
 import NftDetail from "../components/NftDetail.jsx";
 
 import nftData from "../fixtures/data.json";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import {FaExternalLinkAlt, FaTimes} from "react-icons/fa";
 
 function Homepage() {
   const [openModal, setOpenModal] = useState(false);
@@ -28,6 +29,7 @@ function Homepage() {
 
   return (<>
       <Navbar/>
+      <Hero/>
       <div className="container mx-auto py-5">
         <CardList nft={nftData} setOpenModal={nftClicked}/>
       </div>
@@ -35,8 +37,9 @@ function Homepage() {
         <NftModal open={nftClicked} onClose={() => setOpenModal(false)}>
           {currentNFT ?
             <NftDetail>
-              <div className="mb-8">
+              <div className="mb-8 flex justify-between">
                 <h2 className="text-white text-lg font-bold">{currentNFT.name || ''}</h2>
+                <button className="text-white" onClick={() => setOpenModal(false)}><FaTimes /></button>
               </div>
               <div className="bg-black mb-8 flex gap-8 flex-column">
                 <img className="block mx-auto max-w-[200px] rounded-sm sm:mx-0 sm:shrink-0"
