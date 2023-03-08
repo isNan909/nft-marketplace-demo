@@ -1,0 +1,148 @@
+{
+  "nfts": [
+    {
+      "id": 1,
+      "name": "Rainbow session vibe",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Jack Johnson",
+        "image": "https://randomuser.me/api/portraits/men/97.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "New antique art piece",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Kim Harris",
+        "image": "https://randomuser.me/api/portraits/men/96.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rainbow session vibe",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Jack Johnson",
+        "image": "https://randomuser.me/api/portraits/men/97.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "New antique art piece",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Kim Harris",
+        "image": "https://randomuser.me/api/portraits/men/96.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Rainbow session vibe",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Jack Johnson",
+        "image": "https://randomuser.me/api/portraits/men/97.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "name": "New antique art piece",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Kim Harris",
+        "image": "https://randomuser.me/api/portraits/men/96.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Rainbow session vibe",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Jack Johnson",
+        "image": "https://randomuser.me/api/portraits/men/97.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "New antique art piece",
+      "tag": "500",
+      "texts": ["<p>A community-driven collectibles project featuring art by Burnt Toast. Doodles come in a joyful range of colors, traits and sizes with a collection size of 10,000. Each Doodle allows its owner to vote for experiences and activations paid for by the Doodles Community Treasury. Burnt Toast is the working alias for Scott Martin, a Canadian–based illustrator, designer, animator and muralist.</p>"],
+      "image": "https://i.seadn.io/gcs/files/aefc5ec56d2c3e2a9773d3662eed6119.png?auto=format&w=1000",
+      "openseaLink": "https://opensea.io/assets/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/8580",
+      "bidding": {
+        "currentPrice": 4.5,
+        "currentBid": 5.88,
+        "dollarEvaluation": 236,
+        "endingIn": "April 23, 2023 at 12:30AM"
+      },
+      "seller": {
+        "name": "Kim Harris",
+        "image": "https://randomuser.me/api/portraits/men/96.jpg"
+      }
+    }
+  ]
+}
