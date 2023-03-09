@@ -6,7 +6,7 @@ function Hero () {
         >
           <div className="mx-auto max-w-3xl text-center">
             <h1
-              className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+              className="bg-gradient-to-r from-fuchsia-400 via-fuchsia-200 to-sky-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
             >
               Discover curated sleek NFTs
             </h1>
@@ -17,7 +17,7 @@ function Hero () {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                className="shadow-xl shadow-black text-white bg-purple-600 hover:bg-purple-700 text-lg py-4 px-8 rounded-full cursor-pointer"
+                className="shadow-xl shadow-black text-white font-bold bg-indigo-500 hover:bg-indigo-600 text-lg py-4 px-8 rounded-full cursor-pointer"
                 href="/"
               >
                 Get Started

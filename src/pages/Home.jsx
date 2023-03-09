@@ -39,7 +39,7 @@ function Homepage() {
             <NftDetail>
               <div className="mb-8 flex justify-between">
                 <h2 className="text-white text-lg font-bold">{currentNFT.name || ''}</h2>
-                <button className="text-white" onClick={() => setOpenModal(false)}><FaTimes /></button>
+                <button className="text-white text-xl" onClick={() => setOpenModal(false)}><FaTimes /></button>
               </div>
               <div className="bg-black mb-8 flex gap-8 flex-column">
                 <img className="block mx-auto max-w-[200px] rounded-sm sm:mx-0 sm:shrink-0"
@@ -66,7 +66,7 @@ function Homepage() {
               <span className="text-white"
                     dangerouslySetInnerHTML={{ __html: nftDescription }}
               />
-              <div className="flex mt-6">
+              <div className="flex my-6">
                 <img className="block mx-auto h-10 rounded-full sm:mx-0 sm:shrink-0"
                      src={currentNFT.seller.image} alt="Woman's Face" />
                 <div className="text-center sm:text-left pl-4">
@@ -80,8 +80,8 @@ function Homepage() {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-end py-6">
-                <button className="shadow-xl flex items-center shadow-black text-white bg-purple-600 hover:bg-purple-700 text-base py-2 px-4 rounded-full cursor-pointer" onClick={()=> openWindow(currentNFT.openseaLink)}>Purchase NFT<FaExternalLinkAlt className="ml-2"/></button>
+              <div className="flex justify-end py-6 border-t-2 border-[#1B1717]">
+                <button className="shadow-xl flex items-center shadow-black text-white bg-indigo-500 hover:bg-indigo-600 text-base py-4 px-8 rounded-full font-bold cursor-pointer" onClick={()=> openWindow(currentNFT.openseaLink)}>Purchase NFT<FaExternalLinkAlt className="ml-2"/></button>
               </div>
           </NftDetail> : 'No NFTs' +
             ' were found!'}

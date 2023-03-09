@@ -34,7 +34,7 @@ function Navbar() {
               ))}
             </ul>
           <div>
-            <button className="shadow-xl shadow-black text-white bg-purple-600 hover:bg-purple-700 text-base py-2 px-4 rounded-full cursor-pointer">Connect a wallet</button>
+            <button className="shadow-xl shadow-black text-white bg-indigo-500 hover:bg-indigo-600 text-base py-2 px-4 rounded-full cursor-pointer">Connect a wallet</button>
           </div>
         </div>
       </div>
