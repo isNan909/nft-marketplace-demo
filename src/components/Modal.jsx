@@ -1,8 +1,6 @@
 import { createPortal } from 'react-dom';
 import { useEffect } from 'react';
 
-import { FaTimes } from "react-icons/fa";
-
 export default function NftModal({ open, onClose, children }) {
   function escHandler({ key }) {
     if (key === 'Escape') {
